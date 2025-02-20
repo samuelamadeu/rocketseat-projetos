@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
   }
 
 :root {
@@ -12,11 +12,16 @@
   --skeleton-color: #d9d9d9;
   --shape-transparency: hsla(0, 0%, 100%, 0.568);
   --text-color-primary: #313131;
-  --text-color-secundary: #6c6c6c
-  
+  --text-color-secundary: #6c6c6c;
+  --font-family: "Poppins", serif;
+  --text-large: bold 32px/125% var(--font-family);
+  --text: 16px/150% var(--font-family);
+  --text-medium: 14px/175% var(--font-family);
+  --text-small: 12px/175% var(--font-family);
 }
 
 body {
+  font: var(--text-large);
   color: var(--text-color-secundary);
   background-color: var(--background-color)
 }
