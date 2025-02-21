@@ -24,5 +24,6 @@
   /* flex-shrink: 1; */
 
 
-
+@import url(global.css);
+@import url(nav.css);
 
